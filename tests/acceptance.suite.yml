@@ -11,8 +11,8 @@ modules:
             dbPassword: wordpress
             domain: wordpress
             tablePrefix: 'mp_'
-            plugins: ['mailpoet/mailpoet.php']
-            activatePlugins: ['mailpoet/mailpoet.php']
+            plugins: ['mailpoet/mailpoet.php', 'woocommerce/woocommerce.php']
+            activatePlugins: ['mailpoet/mailpoet.php', 'woocommerce/woocommerce.php']
         - WPWebDriver:
             host: chrome
             url: 'http://test.local'
